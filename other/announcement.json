@@ -1,0 +1,13 @@
+{
+  "id": "1",
+  "title": "公告",
+  "content": "测试内容",
+  "confirmText": "跳转",
+  "cancelText": "取消",
+  "detailUrl": "https://www.baidu.com",
+  "isOutlink": true,
+  "outsideCancelable": true,
+  "enable": true,
+  "expirationTimestamp": 999999999999,
+  "desc": "content支持富文本,detailUrl不为空时点击确定跳转,confirmText和cancelText不为空时显示对应按钮"
+}
