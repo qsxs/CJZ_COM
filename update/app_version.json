@@ -1,23 +1,23 @@
 {
   "Official": {
-    "versionCode": 86,
-    "versionName": "V3.5",
-    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.5_20200330_113901.apk",
+    "versionCode": 90,
+    "versionName": "V3.7",
+    "updateLog": "1. 分类默认账户可以设为默认\n2. 增加年度报告\n1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击新增按钮添加记录，长按添加转账\n4. 不在支持android 7.0以下设备\n6. 其他一些优化以及bug修复",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7_20260119_141517.apk",
     "force": false
   },
   "Google": {
-    "versionCode": 86,
-    "versionName": "V3.5",
-    "updateLog": "1. 适配 android 10,无需任何权限,符合安卓应用推荐规范，更隐私更安全更绿色\n2. 其他一些小优化",
-    "apkUrl": "market://details?id=com.six.accountbook",
+    "versionCode": 90,
+    "versionName": "V3.7",
+    "updateLog": "1. 分类默认账户可以设为默认\n2. 增加年度报告\n1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击新增按钮添加记录，长按添加转账\n4. 不在支持android 7.0以下设备\n6. 其他一些优化以及bug修复",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7_20260119_141517.apk",
     "force": false
   },
   "beta": {
-    "versionCode": 87,
-    "versionName": "V3.6_beta1",
-    "updateLog": "1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击添加记录长按添加转账\n4. 一些bug修复",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_beta_release_V3.6_beta1_20200525_105028.apk",
+    "versionCode": 90,
+    "versionName": "V3.7",
+    "updateLog": "1. 分类默认账户可以设为默认\n2. 增加年度报告\n1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击新增按钮添加记录，长按添加转账\n4. 不在支持android 7.0以下设备\n6. 其他一些优化以及bug修复",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7_20260119_141517.apk",
     "force": false
   }
 }
