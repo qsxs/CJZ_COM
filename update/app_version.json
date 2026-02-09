@@ -1,16 +1,16 @@
 {
   "Official": {
-    "versionCode": 91,
-    "versionName": "V3.7.1",
-    "updateLog": "1. 分类默认账户可以设为默认\n2. 增加年度报告\n1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击新增按钮添加记录，长按添加转账\n4. 不在支持android 7.0以下设备\n6. 其他一些优化以及bug修复",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.1_20260119_162456.apk",
+    "versionCode": 93,
+    "versionName": "V3.7.2",
+    "updateLog": "1. 解决部分用户无法查看年度报告的问题\n2. 解决部分设备导入可能失败的问题\n3. 其他已知问题修正\n\n祝大家新年快乐",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.2_20260209_163145.apk",
     "force": false
   },
   "beta": {
-    "versionCode": 91,
-    "versionName": "V3.7.1",
-    "updateLog": "1. 分类默认账户可以设为默认\n2. 增加年度报告\n1. 解决双开应用无法导出的问题\n2. 暗色模式增加开关\n3. 账户页面可以点击新增按钮添加记录，长按添加转账\n4. 不在支持android 7.0以下设备\n6. 其他一些优化以及bug修复",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.1_20260119_162456.apk",
+    "versionCode": 93,
+    "versionName": "V3.7.2",
+    "updateLog": "1. 解决部分用户无法查看年度报告的问题\n2. 解决部分设备导入可能失败的问题\n3. 其他已知问题修正\n\n祝大家新年快乐",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.2_20260209_163145.apk",
     "force": false
   }
 }
