@@ -2,15 +2,15 @@
   "Official": {
     "versionCode": 93,
     "versionName": "V3.7.2",
-    "updateLog": "1. 解决部分用户无法查看年度报告的问题\n2. 解决部分设备导入可能失败的问题\n3. 其他已知问题修正\n\n祝大家新年快乐",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.2_20260209_163145.apk",
+    "updateLog": "1. 解决新年弹窗不再提示无效的问题\n2. 加快启动速度\n\n祝大家新年快乐",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.3_20260214_104600.apk",
     "force": false
   },
   "beta": {
     "versionCode": 93,
     "versionName": "V3.7.2",
-    "updateLog": "1. 解决部分用户无法查看年度报告的问题\n2. 解决部分设备导入可能失败的问题\n3. 其他已知问题修正\n\n祝大家新年快乐",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.2_20260209_163145.apk",
+    "updateLog": "1. 解决新年弹窗不再提示无效的问题\n2. 加快启动速度\n\n祝大家新年快乐",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.3_20260214_104600.apk",
     "force": false
   }
 }
