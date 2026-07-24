@@ -6,8 +6,8 @@
   "cancelText": "取消",
   "detailUrl": "https://www.baidu.com",
   "isOutlink": true,
-  "outsideCancelable": true,
-  "enable": false,
+  "outsideCancelable": false,
+  "enable": true,
   "expirationTimestamp": 1770958373734,
   "desc": "content支持富文本,detailUrl不为空时点击确定跳转,confirmText和cancelText不为空时显示对应按钮"
 }
