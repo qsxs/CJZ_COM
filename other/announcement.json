@@ -1,13 +1,13 @@
 {
-  "id": "1",
-  "title": "公告",
-  "content": "测试内容",
-  "confirmText": "跳转",
+  "id": "2",
+  "title": "全新版本抢先内测开启",
+  "content": "纯记账新版即将上线！\n\n我们正在邀请用户提前体验全新界面和功能优化版本。\n\n想参与内测，第一时间体验新版纯记账，请关注「纯记账」微信公众号，获取内测资格。\n\n感谢你的支持 ❤\uFE0F\n",
+  "confirmText": "确定",
   "cancelText": "取消",
-  "detailUrl": "https://www.baidu.com",
-  "isOutlink": true,
-  "outsideCancelable": true,
-  "enable": false,
-  "expirationTimestamp": 1770958373734,
+  "detailUrl": "",
+  "isOutlink": false,
+  "outsideCancelable": false,
+  "enable": true,
+  "expirationTimestamp": 4088547960000,
   "desc": "content支持富文本,detailUrl不为空时点击确定跳转,confirmText和cancelText不为空时显示对应按钮"
 }

@@ -14,5 +14,13 @@
     "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.3_20260214_104600.apk",
     "force": false,
     "isApk":  true
+  },
+  "alpha": {
+    "versionCode": 400,
+    "versionName": "4.0.0_alpha1",
+    "updateLog": "1. 全新界面体验\n2. 搜索功能升级\n3. 统计体验优化\n4. 优化应用性能，提升使用体验。",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha1_20260803_113046.apk",
+    "force": false,
+    "isApk":  true
   }
 }
