@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 401,
-    "versionName": "4.0.0_alpha2",
-    "updateLog": "1. 记账备注交互全新升级\n2. 分类和账户拖动排序\n3. 记账列表日期点击跳转统计\n4. 搜索支持按备注搜索转账\n5. 修复传统导航栏机型上遮挡的问题\n6. 修复预算余额结算错误的问题\n7. 修复分类结余计算错误的问题\n8. 修复无账户记录异常的问题\n9. 修复导出日期异常的问题\n10. 其他问题修复。",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha2_20260806_134945.apk",
+    "versionCode": 402,
+    "versionName": "4.0.0_alpha3",
+    "updateLog": "*建议升级前此版本前进行备份*\n\n1. 修复删除无账户的数据可能留下脏数据的问题\n2. 新增账户列表显示备注\n3. 账单详情页金额时同时隐藏账户余额\n4. 修正负数记录导致统计闪退的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha3_20260807_141138.apk",
     "force": false,
     "isApk":  true
   }
