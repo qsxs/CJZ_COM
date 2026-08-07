@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 402,
-    "versionName": "4.0.0_alpha3",
-    "updateLog": "*建议升级前此版本前进行备份*\n\n1. 修复删除无账户的数据可能留下脏数据的问题\n2. 新增账户列表显示备注\n3. 账单详情页金额时同时隐藏账户余额\n4. 修正负数记录导致统计闪退的问题",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha3_20260807_141138.apk",
+    "versionCode": 403,
+    "versionName": "4.0.0_alpha4",
+    "updateLog": "1. 修复余额可能显示错误的问题\n2. 修复新增账户可能闪退的问题\n3. 分类默认账户支持选择无账户\n4. 记账时间同时支持通过轮盘选择和手动输入",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha4_20260807_180500.apk",
     "force": false,
     "isApk":  true
   }
