@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 404,
-    "versionName": "4.0.0_alpha5",
-    "updateLog": "1. 修复保存按钮连点产生重复记录的问题\n2. 修复计算器按等号后结果未保留两位小数的问题\n3. 「显示转账」开关仅控制首页列表展示\n4. 记录详情页显示该记录发生时刻的账户余额\n5. 分类详情页新增新建分类入口\n6. 修复预算图表空数据时闪退的问题\n7. 修复系统返回手势期间弹窗显示异常的问题",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha5_20260810_175304.apk",
+    "versionCode": 405,
+    "versionName": "4.0.0_alpha6",
+    "updateLog": "1. 修复选择账户闪退的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha6_20260810_215546.apk",
     "force": false,
     "isApk":  true
   }
