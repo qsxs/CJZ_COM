@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 406,
-    "versionName": "4.0.0_alpha7",
-    "updateLog": "1. 新增桌面小组件：财务概览、今天记录、月总览\n2. 新增全新的侧边栏\n3. 小组件主题跟随应用主题设置\n4. 快捷方式图标优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha7_20260814_155639.apk",
+    "versionCode": 407,
+    "versionName": "4.0.0_alpha8",
+    "updateLog": "1. 记账时间选择器新增滚轮模式\n2. 记账时间选择器日历模式支持快速跳转\n3. 搜索页与分类详情页的数据总览卡减少信息密度，数据更清晰\n4. CDB 导入升级：预算、备份计划、常用备注等更多数据完整导入\n5. 修复桌面小组件在小米手机上可能显示异常的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha8_20260817_141609.apk",
     "force": false,
     "isApk":  true
   }
