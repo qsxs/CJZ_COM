@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 408,
-    "versionName": "4.0.0_alpha9",
-    "updateLog": "1. 日期选择器交互优化\n2. 记一笔流程体验优化\n3. 修复桌面小组件内容不更新的问题",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha9_20260819_093750.apk",
+    "versionCode": 409,
+    "versionName": "4.0.0_alpha10",
+    "updateLog": "1. 记一笔体验优化\n- 转账账户选择界面全新调整，操作更加清晰\n- 快捷操作区域视觉优化，金额输入体验提升\n- 支持金额输入上限提示，避免误输入超大金额\n2. 日期选择体验优化\n- 历史记录日期选择器优化，支持更便捷的日期跳转\n- 日历模式适配大字体显示，查看更加舒适\n- 优化日期滚动与展开交互\n3. 界面细节优化\n- 优化输入、计算器、弹窗等多个界面细节\n- 支持更多文本显示场景，减少内容显示异常\n4. 桌面小组件优化\n- 优化小组件刷新机制，提升内容更新稳定性\n- 优化预算相关数据展示\n5. 其他优化\n- 修复部分情况下账户余额调整、转账记录显示等问题\n- 提升应用整体稳定性",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha10_20260827_092607.apk",
     "force": false,
     "isApk":  true
   }
