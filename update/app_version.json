@@ -16,10 +16,10 @@
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 411,
-    "versionName": "4.0.0_alpha12",
-    "updateLog": "1. 修正分析统计中记录数的计算\n2. 记一笔账户支持显示更长的内容",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha12_20260831_102101.apk",
+    "versionCode": 412,
+    "versionName": "4.0.0_alpha13",
+    "updateLog": "1. 记一笔体验优化\n- 计算器键盘重新布局，运算符和删除键独立排列，按键更易点击\n- 转账时点击中间箭头即可快速交换转出和转入账户\n- 优化快捷操作区域布局，长账户名称显示更稳定\n- 优化记一笔与分类选择界面的颜色和显示效果\n2. 账单列表显示优化\n- 去除分隔线，列表更清爽\n- 优化分类、账户、金额等摘要信息的排布\n3. 分类相关的常用备注权重增加，选择更方便\n4. 修复编辑账户时将差额记为收支，仍被错误记录为余额调整的问题\n5. 其他小优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_alpha13_20260903_134758.apk",
     "force": false,
     "isApk":  true
   }
