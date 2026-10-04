@@ -366,6 +366,13 @@ section { padding: 100px 28px; }
 }
 
 /* Download */
+.version-badge {
+  display: inline-block; margin-left: 6px; padding: 2px 8px;
+  border-radius: var(--md-radius-full);
+  background: var(--md-primary-container); color: var(--md-on-primary-container);
+  font-size: 12px; font-weight: 600; line-height: 1.5; vertical-align: middle;
+}
+.version-badge[hidden] { display: none; }
 .dl-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
 }
@@ -708,12 +715,12 @@ footer .f-links a:hover { color: var(--md-primary); }
   <div class="section-inner">
     <span class="section-label">下载</span>
     <h2 class="section-title">获取纯记账</h2>
-    <p class="section-sub">最新版本 V3.7.3 · 完全免费 · 无任何广告</p>
+    <p class="section-sub" aria-live="polite"><span id="app-version">正在获取最新版本…</span><span class="version-badge" id="app-version-beta" hidden>beta</span> · 完全免费 · 无任何广告</p>
     <div class="dl-grid">
-      <a href="https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.3_20260214_104600.apk" class="dl-card" id="dl-android">
+      <a href="#download" class="dl-card disabled" id="dl-android" aria-disabled="true">
         <span class="dl-icon">🤖</span>
         <h3>Android APK</h3>
-        <p>直接下载安装包 · 约 7MB · 支持 Android 7.0+</p>
+        <p>直接下载安装包 · 约 16.5MB · 支持 Android 7.0+</p>
       </a>
       <div class="dl-card disabled">
         <span class="dl-icon">🍎</span>
@@ -760,16 +767,56 @@ footer .f-links a:hover { color: var(--md-primary); }
 (function(){
   var ua = navigator.userAgent.toLowerCase();
   var isWechat = ua.indexOf('micromessenger') !== -1;
-  var isIOS = /\(i[^;]+;( U;)? CPU.+Mac OS X/.test(ua) || ua.indexOf('iPhone') !== -1 || ua.indexOf('iPad') !== -1;
+  var isIOS = /iphone|ipad|ipod/.test(ua);
 
   var dlLink = document.getElementById('dl-android');
+  var versionText = document.getElementById('app-version');
+  var betaBadge = document.getElementById('app-version-beta');
   if (dlLink) {
-    if (isIOS) {
-      dlLink.addEventListener('click', function(e) { e.preventDefault(); alert('Chunjizhang for iOS Coming Soon'); });
-    } else if (isWechat) {
-      dlLink.href = './index/jump.htm';
-    }
+    dlLink.addEventListener('click', function(e) {
+      if (isIOS) {
+        e.preventDefault();
+        alert('Chunjizhang for iOS Coming Soon');
+      } else if (dlLink.getAttribute('aria-disabled') === 'true') {
+        e.preventDefault();
+      }
+    });
   }
+
+  function isDownloadable(release) {
+    return release && typeof release.versionName === 'string' && release.versionName.trim() &&
+      typeof release.apkUrl === 'string' && /^https?:\/\//i.test(release.apkUrl);
+  }
+
+  fetch('./update/app_version.json', { cache: 'no-cache' })
+    .then(function(response) {
+      if (!response.ok) throw new Error('Failed to load app version');
+      return response.json();
+    })
+    .then(function(versions) {
+      var official = isDownloadable(versions.Official) ? versions.Official : null;
+      var beta = isDownloadable(versions.beta) ? versions.beta : null;
+      // beta 通道也可能指向正式包，此时按正式版显示。
+      var sameRelease = official && beta && (
+        beta.apkUrl === official.apkUrl ||
+        (beta.versionCode === official.versionCode && beta.versionName === official.versionName)
+      );
+      var isBeta = !!beta && !sameRelease;
+      var release = isBeta ? beta : official;
+      if (!release) throw new Error('No downloadable app version');
+
+      versionText.textContent = '最新版本 ' + release.versionName;
+      betaBadge.hidden = !isBeta;
+      if (dlLink) {
+        dlLink.href = isWechat && !isIOS ? './index/jump.htm' : release.apkUrl;
+        dlLink.classList.remove('disabled');
+        dlLink.removeAttribute('aria-disabled');
+      }
+    })
+    .catch(function(error) {
+      versionText.textContent = '版本信息暂时不可用，请刷新重试';
+      console.warn('Unable to load app version:', error);
+    });
 })();
 
 // Lightbox
