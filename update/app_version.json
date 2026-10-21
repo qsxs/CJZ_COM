@@ -8,18 +8,18 @@
     "isApk":  true
   },
   "beta": {
-    "versionCode": 414,
-    "versionName": "4.0.0_beta1",
-    "updateLog": "升级提示：\n   - 建议先在「导入导出」备份\n   - 可覆盖安装，原账目自动迁移\n\n1. 全新界面体验\n   - 首页、记一笔等全部页面重新设计\n   - 全新主题配色布局\n2. 历史查看与搜索升级\n   - 新增日历热力图\n   - 更丰富的搜索筛选条件\n3. 记一笔全新优化\n   - 新增快捷备注与常用词库\n   - 优化计算器键盘与金额输入\n4. 账单时间与日期选择优化\n   - 支持显示账单具体时间\n   - 记账时可选择时刻\n5. 分类与主题升级\n   - 新增大量分类图标\n   - 重新设计主题与深色模式\n",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta1_vc414_20261005_085258.apk",
+    "versionCode": 415,
+    "versionName": "4.0.0_beta2",
+    "updateLog": "1. 删除账户时可选择保留收支账单，账单将自动归为“无账户”\n2. 统计图表自动记住柱状图、饼图的选择\n3. 首页与数据展示优化\n4. 日期选择体验优化\n5. 界面细节优化\n6. 其他稳定性优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta2_vc415_20261021_160624.apk",
     "force": false,
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 414,
-    "versionName": "4.0.0_beta1",
-    "updateLog": "1. 个人中心界面焕新\n2. 设置页面重新设计\n3. 优化添加分类界面\n4. 优化预算管理界面",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta1_alpha_vc414_20261005_085035.apk",
+    "versionCode": 415,
+    "versionName": "4.0.0_beta2",
+    "updateLog": "1. 删除账户时可选择保留收支账单，账单将自动归为“无账户”\n2. 统计图表自动记住柱状图、饼图的选择\n3. 首页与数据展示优化\n4. 日期选择体验优化\n5. 界面细节优化\n6. 其他稳定性优化",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta2_alpha_vc415_20261021_160800.apk",
     "force": false,
     "isApk":  true
   }
