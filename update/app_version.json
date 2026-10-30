@@ -1,25 +1,25 @@
 {
   "Official": {
-    "versionCode": 94,
-    "versionName": "V3.7.3",
-    "updateLog": "1. 解决新年弹窗不再提示无效的问题\n2. 加快启动速度\n\n祝大家新年快乐",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_V3.7.3_20260214_104600.apk",
+    "versionCode": 416,
+    "versionName": "4.0.0",
+    "updateLog": "升级前建议先在「导入导出」中备份账本。\n\n新版带来全新界面、更丰富的搜索筛选、快捷备注，以及分类、主题和统计体验升级。",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Official_release_4.0.0_20261031_013125.apk",
     "force": false,
     "isApk":  true
   },
   "beta": {
-    "versionCode": 415,
-    "versionName": "4.0.0_beta2",
-    "updateLog": "1. 删除账户时可选择保留收支账单，账单将自动归为“无账户”\n2. 统计图表自动记住柱状图、饼图的选择\n3. 首页与数据展示优化\n4. 日期选择体验优化\n5. 界面细节优化\n6. 其他稳定性优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta2_vc415_20261021_160624.apk",
+    "versionCode": 416,
+    "versionName": "4.0.0",
+    "updateLog": "1. 日历弹窗支持双击确认日期\n2. 从分类或账户详情新增记录时，自动选择对应分类或账户\n3. 优化备注弹窗的输入法动画\n4. 保存备份方案前检查权限，减少备份失败\n5. 修复历史查看中日历折叠异常的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Beta_release_4.0.0_20261031_012918.apk",
     "force": false,
     "isApk":  true
   },
   "alpha": {
-    "versionCode": 415,
-    "versionName": "4.0.0_beta2",
-    "updateLog": "1. 删除账户时可选择保留收支账单，账单将自动归为“无账户”\n2. 统计图表自动记住柱状图、饼图的选择\n3. 首页与数据展示优化\n4. 日期选择体验优化\n5. 界面细节优化\n6. 其他稳定性优化",
-    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_4.0.0_beta2_alpha_vc415_20261021_160800.apk",
+    "versionCode": 416,
+    "versionName": "4.0.0",
+    "updateLog": "1. 日历弹窗支持双击确认日期\n2. 从分类或账户详情新增记录时，自动选择对应分类或账户\n3. 优化备注弹窗的输入法动画\n4. 保存备份方案前检查权限，减少备份失败\n5. 修复历史查看中日历折叠异常的问题",
+    "apkUrl": "https://www.chunjizhang.com/update/chunjizhang_Alpha_release_4.0.0_20261031_012619.apk",
     "force": false,
     "isApk":  true
   }
